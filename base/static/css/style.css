@@ -1,0 +1,42 @@
+body, div, nav, ul, header,img {
+  padding: 0;
+  margin: 0;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+}
+
+.wrapper {
+  width: 1280px;
+  margin: 0 auto;
+}
+nav {
+  background: #823;
+}
+ul {
+  padding: 15px;
+}
+li {
+  display: inline-block;
+}
+a {
+  display: block;
+  color: white;
+  margin-right: 10px;
+  text-decoration: none;
+}
+a:hover {
+  color: #a99;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+footer {
+  margin-top: auto;
+  background: #823;
+}
